@@ -101,15 +101,15 @@ export default function Skills() {
                     <div className="project-coloumn">
                         <h2>Using MERN Stack</h2>
                         <ul>
-                            <li><a href="https://github.com/sreehb-123/9-11/tree/master" target="_blank">Library Management System for SoI-2024</a></li>
+                            <li><a href="https://github.com/sreehb-123/9-11/tree/master" target="_blank" rel="noopener noreferrer">Library Management System for SoI-2024</a></li>
                         </ul>
                     </div>
 
                     <div className="project-coloumn">
                         <h2>Using React</h2>
                         <ul>
-                            <li><a href="https://harsha-businesscard.netlify.app" target="_blank">Digital Business Card</a></li>
-                            <li><a href="https://randomcat-for-bhavana.netlify.app" target="_blank">Random Cat Generator</a></li>
+                            <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
+                            <li><a href="https://randomcat-for-bhavana.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
                             <li>*The one you are seeing rn*</li>
                         </ul>   
                     </div>
@@ -117,9 +117,9 @@ export default function Skills() {
                     <div className="project-coloumn">
                         <h2>Using JS,HTML & CSS</h2>
                         <ul>
-                            <li><a href="https://sreehb-123.github.io/tic-tac-toe/" target="_blank">Tic-Tac-Toe</a></li>
-                            <li><a href="https://scissor-rock-papers.netlify.app" target="_blank">Rock Paper Scissors</a></li>
-                            <li><a href="https://exchange-rate-converter-harsha.netlify.app" target="_blank">Currency Converter</a></li>
+                            <li><a href="https://sreehb-123.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">Tic-Tac-Toe</a></li>
+                            <li><a href="https://scissor-rock-papers.netlify.app" target="_blank" rel="noopener noreferrer">Rock Paper Scissors</a></li>
+                            <li><a href="https://exchange-rate-converter-harsha.netlify.app" target="_blank" rel="noopener noreferrer">Currency Converter</a></li>
                         </ul>
                     </div>
                 </div>
