@@ -10,6 +10,12 @@ import nodejs_logo from "../images/nodejs_logo-removebg-preview.png"
 import exp_logo from "../images/express_log-removebg-preview.png"
 import mongodb_logo from "../images/mongodb_logo-removebg-preview.png"
 import potrait from "../images/harsha.jpg"
+import github_logo from "../images/github_logo.png"
+import insta_logo from "../images/insta_icon.jpeg"
+import twitter_logo from "../images/x_icon.png"
+import phone_logo from "../images/phone_logo1.jpeg"
+import linkedin_logo from "../images/linkedin_logo.png"
+import email_logo from "../images/email_logo.jpeg"
 import Navbar from "./navbar";
 
 export default function Skills() {
@@ -135,6 +141,43 @@ export default function Skills() {
 
             </section>
 
+            <section id="contacts">
+
+                <h1>Contact Me</h1>
+
+                <div className="contacts-grid">
+                    <div className="contacts-item">
+                        <a href="https://github.com/sreehb-123" rel="noopener noreferrer" className="github" target="_blank">
+                            <img src={github_logo} alt="GitHub"/>
+                        </a>
+                    </div>
+                    <div className="contacts-item">
+                        <a href="https://www.linkedin.com/in/bolloju-sai-sreeharsha-a3146a294/" rel="noopener noreferrer" className="linkedin" target="_blank">
+                            <img src={linkedin_logo} alt="LinkedIn"/>
+                        </a>
+                    </div>
+                    <div className="contacts-item">
+                        <a href="mailto:sreeh190206@gmail.com" rel="noopener noreferrer" target="_blank">
+                            <img src={email_logo} alt="Email"/>
+                        </a>
+                    </div>
+                    <div className="contacts-item">
+                        <a href="tel:+919391323593" rel="noopener noreferrer" target="_blank">
+                            <img src={phone_logo} alt="Phone"/>
+                        </a>
+                    </div>
+                    <div className="contacts-item">
+                        <a href="https://x.com/achiever1926" rel="noopener noreferrer" target="_blank">
+                            <img src={twitter_logo} alt="Twitter"/>
+                        </a>
+                    </div>
+                    <div className="contacts-item">
+                        <a href="https://www.instagram.com/sreehb_123/" rel="noopener noreferrer" className="instagram" target="_blank">
+                            <img src={insta_logo} alt="Instagram"/>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }
