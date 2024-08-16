@@ -116,7 +116,7 @@ export default function Skills() {
                         <ul>
                             <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
                             <li><a href="https://randomcat-for-bhavana.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
-                            <li>*The one you are seeing rn*</li>
+                            <li>This one lol (Done in less than 24 hrs)</li>
                         </ul>   
                     </div>
 
