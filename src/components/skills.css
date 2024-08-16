@@ -24,7 +24,7 @@
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 30px;
     justify-items: center;
     padding: 30px;
@@ -146,6 +146,7 @@ h2 {
     color: #d3d3d3;
     font-family: monospace;
     margin: 20px 0;
+    text-align: center;
 }
 
 .project-coloumn ul li:hover {
@@ -214,6 +215,10 @@ section {
     .contacts-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    .grid-item{
+        margin: 0;
     }
 }
 
