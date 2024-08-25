@@ -39,6 +39,10 @@
         font-size: 19px;
         padding: 5px;
     }
+
+    .navbar{
+        padding-left: 2px;
+    }
     
     .nav-list li {
         margin: 0 10px;
