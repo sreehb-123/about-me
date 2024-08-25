@@ -229,6 +229,7 @@ section {
     }
 
     .skills-container h2 {
+        padding-top: 20px;
         font-size: 1.5rem;
     }
 
@@ -242,6 +243,7 @@ section {
 
     .contacts-grid {
         grid-template-columns: 1fr;
+        padding-top: 20px;
     }
 
     .contacts-item img {
