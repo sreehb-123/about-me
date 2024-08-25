@@ -233,10 +233,6 @@ section {
         font-size: 1.5rem;
     }
 
-    .about p{
-        padding-left: 2px;
-    }
-
     .projects-row {
         gap: 10px;
     }
@@ -254,4 +250,5 @@ section {
         width: 70px;
         height: 70px;
     }
+    
 }

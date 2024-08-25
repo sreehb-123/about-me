@@ -44,9 +44,3 @@
         margin: 0 10px;
     }
 }
-
-@media (max-width: 480px) {
-    .navbar{
-        padding-left: 2px;
-    }
-}
