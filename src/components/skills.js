@@ -139,7 +139,7 @@ export default function Skills() {
                     <h1>Extra Curricular Activities</h1>
                         <ul>
                             <li>Served as a Mentor for the Python Workshop conducted by our Coding Club</li>
-                            <li>Has been a CDC Member of the PR Team at IIT Dharwad</li>
+                            <li>Have been a CDC Member of the PR Team at IIT Dharwad</li>
                             <li>Iam the roomate of Coding Club Jr.Sec. SRIHARI</li>
                         </ul>
                 </div>
