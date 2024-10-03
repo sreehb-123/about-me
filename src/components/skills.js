@@ -107,6 +107,7 @@ export default function Skills() {
                     <div className="project-coloumn">
                         <h2>Using MERN Stack</h2>
                         <ul>
+                            <li><a href="https://expense-tracker-frontend-khe0.onrender.com" target="_blank" rel="noopener noreferrer">PennyWise: Effortless Expense Tracker</a></li>
                             <li><a href="https://github.com/sreehb-123/9-11/tree/master" target="_blank" rel="noopener noreferrer">Library Management System for SoI-2024</a></li>
                         </ul>
                     </div>
