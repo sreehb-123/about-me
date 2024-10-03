@@ -16,7 +16,7 @@ import twitter_logo from "../images/x_icon.png"
 import phone_logo from "../images/phone_logo1.jpeg"
 import linkedin_logo from "../images/linkedin_logo.png"
 import email_logo from "../images/email_logo.jpeg"
-import bash_logo from "../images/bash.png"
+import bash_logo from "../images/bash-removebg-preview.png"
 import Navbar from "./navbar";
 
 export default function Skills() {
