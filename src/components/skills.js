@@ -16,6 +16,7 @@ import twitter_logo from "../images/x_icon.png"
 import phone_logo from "../images/phone_logo1.jpeg"
 import linkedin_logo from "../images/linkedin_logo.png"
 import email_logo from "../images/email_logo.jpeg"
+import bash_logo from "../images/bash.png"
 import Navbar from "./navbar";
 
 export default function Skills() {
@@ -83,6 +84,10 @@ export default function Skills() {
                     <div className="grid-item">
                         <img src={mongodb_logo} alt="MongoDB"/>
                         <span>MongoDB</span>
+                    </div>
+                    <div className="grid-item">
+                        <img src={bash_logo} alt="BASH"/>
+                        <span>BASH</span>
                     </div>
                 </div>
 
