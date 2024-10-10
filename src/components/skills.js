@@ -121,7 +121,7 @@ export default function Skills() {
                         <h2>Using React</h2>
                         <ul>
                             <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
-                            <li><a href="https://randomcat-for-bhavana.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
+                            <li><a href="https://randomcat-generator.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
                             <li>
                                 <a href=" " rel="noopener noreferrer">
                                     The one that you are witnessing rn lol
