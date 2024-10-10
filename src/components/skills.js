@@ -112,8 +112,8 @@ export default function Skills() {
                     <div className="project-coloumn">
                         <h2>Using MERN Stack</h2>
                         <ul>
-                            <li><a href="https://expense-tracker-frontend-khe0.onrender.com" target="_blank" rel="noopener noreferrer">PennyWise: Effortless Expense Tracker</a></li>
                             <li><a href="https://github.com/sreehb-123/9-11/tree/master" target="_blank" rel="noopener noreferrer">Library Management System for SoI-2024</a></li>
+                            <li>PennyWise - The Expense Tracker (in progress)</li>
                         </ul>
                     </div>
 
@@ -144,9 +144,9 @@ export default function Skills() {
                 <div className="activities">
                     <h1>Extra Curricular Activities</h1>
                         <ul>
-                            <li>Served as a Mentor for the Python Workshop conducted by our Coding Club</li>
+                            <li>Member of the Web Dev wing of Coding Club</li>
                             <li>Have been a CDC Member of the PR Team at IIT Dharwad</li>
-                            <li>Iam the roomate of Coding Club Jr.Sec. SRIHARI</li>
+                            <li>Served as a Mentor for the Python Workshop conducted by the Coding Club</li>
                         </ul>
                 </div>
 
