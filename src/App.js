@@ -7,7 +7,7 @@ export default function App() {
   return(
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Skills />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
     </Router>

@@ -120,12 +120,11 @@ export default function Skills() {
                     <div className="project-coloumn">
                         <h2>Using React</h2>
                         <ul>
-                            <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
                             <li><a href="https://randomcat-generator.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
+                            <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
                             <li>
                                 <a href=" " rel="noopener noreferrer">
                                     The one that you are witnessing rn lol
-                                    (built in less than 24hrs)
                                 </a>
                             </li>
                         </ul>   
@@ -135,7 +134,7 @@ export default function Skills() {
                         <h2>Using JS,HTML & CSS</h2>
                         <ul>
                             <li><a href="https://sreehb-123.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">Tic-Tac-Toe</a></li>
-                            <li><a href="https://scissor-rock-papers.netlify.app" target="_blank" rel="noopener noreferrer">Rock Paper Scissors</a></li>
+                            <li><a href="https://scissor-rock-papers.netlify.app" target="_blank" rel="noopener noreferrer">Rock Paper Scissors with AI</a></li>
                             <li><a href="https://exchange-rate-converter-harsha.netlify.app" target="_blank" rel="noopener noreferrer">Currency Converter</a></li>
                         </ul>
                     </div>
@@ -154,7 +153,7 @@ export default function Skills() {
 
             <section id="contacts">
 
-                <h1>Contact Me</h1>
+                <h1>Connect with Me</h1>
 
                 <div className="contacts-grid">
                     <div className="contacts-item">
