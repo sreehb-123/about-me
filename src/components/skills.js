@@ -1,5 +1,6 @@
 import React from "react";
 import "./skills.css"
+import "./home.css"
 import c_logo from "../images/c_logo-removebg-preview.png"
 import js_logo from "../images/js_logo-removebg-preview.png"
 import py_logo from "../images/python_logo-removebg-preview.png"
