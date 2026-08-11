@@ -25,6 +25,12 @@ export default function Skills() {
         <div className="skills-container">
             <Navbar />
 
+            <section id="resume">
+                <h1>Resume</h1>
+                <p>Download my latest resume (PDF):</p>
+                <a href="/SaiSreeharshaResume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">Download Resume (PDF)</a>
+            </section>
+
             <section id="about">
                 <h1>About</h1>
                 
