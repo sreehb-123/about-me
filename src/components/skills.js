@@ -24,143 +24,107 @@ export default function Skills() {
     return(
         <div className="skills-container">
             <Navbar />
-
             <section id="resume">
-                <h1>Resume</h1>
-                <p>Download my latest resume (PDF):</p>
-                <a href="/SaiSreeharshaResume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">Download Resume (PDF)</a>
+                <h1>Bolloju Sai Sreeharsha</h1>
+                <div style={{display: 'flex', gap: '20px', alignItems: 'center', justifyContent: 'flex-start', paddingLeft: '40px'}}>
+                    <div style={{textAlign: 'left'}}>
+                        <p><strong>Email:</strong> <a href="mailto:sreeh190206@gmail.com">sreeh190206@gmail.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+919391323593">+91-9391323593</a></p>
+                        <p><strong>GitHub:</strong> <a href="https://github.com/sreehb-123" target="_blank" rel="noopener noreferrer">github.com/sreehb-123</a></p>
+                        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bolloju-sai-sreeharsha-a3146a294/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bolloju-sai-sreeharsha</a></p>
+                        <p><a href="/SaiSreeharshaResume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">Download Resume (PDF)</a></p>
+                    </div>
+                    <img src={potrait} alt="Portrait" height="180" width="180" style={{borderRadius: '8px'}} />
+                </div>
             </section>
 
             <section id="about">
-                <h1>About</h1>
-                
-                <div className="about">
-                    <p>Hello! I'm Sai Sreeharsha Bolloju, currently in my second year of B.Tech in Computer Science and Engineering.
-                    As a passionate and curious learner, I'm diving into the exciting world of web development.
-                    My journey so far has been all about exploring the fundamentals, building a strong foundation,
-                    and understanding how different pieces of the web puzzle fit together.
-                    I'm always eager to learn, adapt, and experiment with new technologies.
-                    While I've gained a good grasp of the basics, I'm continuously striving to expand my knowledge
-                    and improve my skills.
-                    I'm enthusiastic about tackling challenges and finding creative solutions,
-                    and I believe that every project is an opportunity to grow and innovate.
-                    Whether it's developing responsive designs, optimizing user experiences,
-                    or experimenting with the latest trends in web development, 
-                    I'm ready to take on whatever comes next and am excited to contribute my skills to real-world applications.</p>
-                    <img src={potrait} alt="" height="400" width="400" />
+                <h2>Summary</h2>
+                <p style={{maxWidth: 900, margin: '0 auto', color: '#d3d3d3', fontFamily: 'monospace'}}>
+                    I am a software developer and third-year B.Tech student (CSE) at IIT Dharwad (CGPA: 8.50).
+                    I build web and backend systems, and have experience with AWS, CI/CD, and monitoring tooling.
+                    I enjoy designing scalable backends and developer workflows that automate reliability and observability.
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div className="project-coloumn" style={{maxWidth:800, margin:'0 auto', textAlign:'left'}}>
+                    <h3>B.Tech, Computer Science and Engineering</h3>
+                    <p>Indian Institute of Technology, Dharwad — CGPA: 8.50</p>
+                    <p>2023 — 2027</p>
                 </div>
             </section>
 
-            <section id="skills">
-                <h1>My skills</h1>
-                
-                <h2>Programming Languages and Frameworks</h2>
-                <div className="skills-grid">
-                    <div className="grid-item">
-                        <img src={c_logo} alt="C Language"/>
-                        <span>C Language</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={py_logo} alt="Python"/>
-                        <span>Python</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={js_logo} alt="JavaScript"/>
-                        <span>JavaScript</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={html_logo} alt="HTML"/>
-                        <span>HTML</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={css_logo} alt="CSS"/>
-                        <span>CSS</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={react_logo} alt="React"/>
-                        <span>React</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={nodejs_logo} alt="Node.js"/>
-                        <span>Node.js</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={exp_logo} alt="Express"/>
-                        <span>Express</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={mongodb_logo} alt="MongoDB"/>
-                        <span>MongoDB</span>
-                    </div>
-                    <div className="grid-item">
-                        <img src={bash_logo} alt="BASH"/>
-                        <span>BASH</span>
-                    </div>
-                </div>
-
-                <div className="activities">
-                    <h2>Soft Skills</h2>
+            <section id="experience">
+                <h2>Experience</h2>
+                <div className="project-coloumn" style={{maxWidth:900, margin:'0 auto', textAlign:'left'}}>
+                    <h3>Software Development Engineer Intern — Siemens</h3>
+                    <p><em>July — Dec 2026</em></p>
                     <ul>
-                        <li>Problem Solving</li>
-                        <li>Creative Thinking</li>
-                        <li>Team Collaboration</li>
-                        <li>Time Management</li>
-                        <li>Adaptability</li>
-                        <li>Critical Thinking</li>
-                        <li>Bas chatgpt ne itna hi bola tha</li>
+                        <li>Developed an automated pipeline to identify missing Datadog monitors across AWS resources and generate reports highlighting monitoring gaps.</li>
+                        <li>Automated Jira ticket creation for detected monitoring gaps, enabling systematic tracking and remediation.</li>
+                        <li>Implemented validation logic to reconcile Jira ticket status with actual monitor configuration on subsequent pipeline runs.</li>
+                        <li>Contributed to migration of repositories from GitLab to GitHub Enterprise, assisting repository transition and workflow validation.</li>
+                    </ul>
+
+                    <h3>Freelance Web Developer — IIT Dharwad Websites</h3>
+                    <p><em>Jan — July 2025</em></p>
+                    <ul>
+                        <li>Built and deployed multiple institute websites using React, Tailwind and Strapi CMS.</li>
+                        <li>Designed responsive, accessible UIs enabling non-technical staff to manage content via Strapi.</li>
+                        <li>Deployed on Linux VMs with Nginx and managed server configuration and hosting.</li>
                     </ul>
                 </div>
             </section>
 
             <section id="projects">
-                <h1>Projects</h1>
-                
+                <h2>Selected Projects</h2>
                 <div className="projects-row">
                     <div className="project-coloumn">
-                        <h2>Using MERN Stack</h2>
+                        <h3>AI Agentic Pipeline for VC Decision Support</h3>
+                        <p>Python, FastAPI, Pathway, MongoDB, Kafka, LLMs (RAG)</p>
                         <ul>
-                            <li><a href="https://github.com/sreehb-123/9-11/tree/master" target="_blank" rel="noopener noreferrer">Library Management System for SoI-2024</a></li>
-                            <li>PennyWise - The Expense Tracker (in progress)</li>
+                            <li>Built an agentic RAG pipeline to assist VCs in evaluating startups using real-time data.</li>
+                            <li>Designed multi-agent workflows, realtime transcript indexing and CRM extraction.</li>
+                            <li>Implemented scalable backend with FastAPI, Kafka CDC and Pathway for streaming processing.</li>
                         </ul>
                     </div>
 
                     <div className="project-coloumn">
-                        <h2>Using React</h2>
+                        <h3>VerifyIT — Student Leave & Security Management</h3>
+                        <p>React Native, TypeScript, Node.js, Express, MongoDB, Firebase</p>
                         <ul>
-                            <li><a href="https://randomcat-generator.netlify.app" target="_blank" rel="noopener noreferrer">Random Cat Generator</a></li>
-                            <li><a href="https://harsha-businesscard.netlify.app" target="_blank" rel="noopener noreferrer">Digital Business Card</a></li>
-                            <li>
-                                <a href=" " rel="noopener noreferrer">
-                                    The one that you are witnessing rn lol
-                                </a>
-                            </li>
-                        </ul>   
-                    </div>
-
-                    <div className="project-coloumn">
-                        <h2>Using JS,HTML & CSS</h2>
-                        <ul>
-                            <li><a href="https://sreehb-123.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">Tic-Tac-Toe</a></li>
-                            <li><a href="https://scissor-rock-papers.netlify.app" target="_blank" rel="noopener noreferrer">Rock Paper Scissors with AI</a></li>
-                            <li><a href="https://exchange-rate-converter-harsha.netlify.app" target="_blank" rel="noopener noreferrer">Currency Converter</a></li>
+                            <li>Mobile leave-management system with role-based workflows for students, wardens and security staff.</li>
+                            <li>QR-based entry/exit tracking with timestamped logs and status updates for security operations.</li>
+                            <li>REST APIs with role-based access control; Firebase auth and Nodemailer notifications.</li>
                         </ul>
                     </div>
                 </div>
+            </section>
 
-                <div className="activities">
-                    <h1>Extra Curricular Activities</h1>
-                        <ul>
-                            <li>Member of the Web Dev wing of Coding Club</li>
-                            <li>Have been a CDC Member of the PR Team at IIT Dharwad</li>
-                            <li>Served as a Mentor for the Python Workshop conducted by the Coding Club</li>
-                        </ul>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div style={{maxWidth:900, margin:'0 auto', textAlign:'left'}}>
+                    <p><strong>Languages:</strong> C, C++, Python, JavaScript</p>
+                    <p><strong>Web & Backend:</strong> React.js, React Native, Node.js, Express.js, FastAPI, Strapi CMS, REST APIs</p>
+                    <p><strong>Databases & Infra:</strong> MongoDB, MySQL, AWS, Nginx, Git, GitHub, Bash, Postman</p>
                 </div>
+            </section>
 
+            <section id="extras">
+                <h2>Extra Curriculars</h2>
+                <div style={{maxWidth:800, margin:'0 auto', textAlign:'left'}}>
+                    <h4>PR Team Member — Career Development Cell, IIT Dharwad</h4>
+                    <p>Coordinated placement process of 10+ companies, managing communications and logistics.</p>
+                    <h4>Python Workshop Mentor — IIT Dharwad</h4>
+                    <p>Mentored students in Python programming covering data structures, OOP and problem solving.</p>
+                </div>
             </section>
 
             <section id="contacts">
 
-                <h1>Connect with Me</h1>
+                <h2>Connect with Me</h2>
 
                 <div className="contacts-grid">
                     <div className="contacts-item">
@@ -181,16 +145,6 @@ export default function Skills() {
                     <div className="contacts-item">
                         <a href="tel:+919391323593" rel="noopener noreferrer" target="_blank">
                             <img src={phone_logo} alt="Phone"/>
-                        </a>
-                    </div>
-                    <div className="contacts-item">
-                        <a href="https://x.com/achiever1926" rel="noopener noreferrer" target="_blank">
-                            <img src={twitter_logo} alt="Twitter"/>
-                        </a>
-                    </div>
-                    <div className="contacts-item">
-                        <a href="https://www.instagram.com/sreehb_123/" rel="noopener noreferrer" className="instagram" target="_blank">
-                            <img src={insta_logo} alt="Instagram"/>
                         </a>
                     </div>
                 </div>
