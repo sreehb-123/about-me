@@ -1,7 +1,16 @@
-*{
-    background-color: black;
-    color: white;
-    font-family: "Inter",sans-serif;
+:root{
+    --bg: #ffffff;
+    --text: #111111;
+    --muted: #666666;
+    --accent: lawngreen;
+}
+
+html, body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .home-container{
@@ -14,7 +23,7 @@
 
 .my-role{
     font-size: 25px;
-    color: grey;
+    color: var(--muted);
 }
 
 .my-name{
@@ -26,14 +35,13 @@
 }
 
 .home-container button{
-    background-color: darkgray;
-    color: black;
-    border-radius: 5%;
-    font-size: 20px;
+    background-color: var(--accent);
+    color: #081;
+    border-radius: 6px;
+    font-size: 18px;
     border: 0;
-    padding: 5px 10px 5px 10px;
-    font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 14px;
+    font-weight: 700;
 }
 
 .home-container button:hover{

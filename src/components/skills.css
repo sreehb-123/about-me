@@ -22,19 +22,19 @@
 }
 
 .skills-container h1, .skills-container h2 {
-    color: #333;
+    color: #111111;
     font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
 }
 
 .skills-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 2.2rem;
+    margin-bottom: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .skills-container h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: lawngreen;
 }
 
@@ -158,11 +158,11 @@ h2 {
 .about p {
     height: auto;
     width: 100%;
-    max-width: 600px;
-    color: #d3d3d3;
-    font-family: monospace;
+    max-width: 700px;
+    color: #333333;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
     margin: 20px 0;
-    text-align: center;
+    text-align: left;
 }
 
 .project-coloumn ul li:hover {
@@ -182,7 +182,7 @@ section {
 #skills,
 #projects,
 #contacts {
-    color: white;
+    color: #111111;
     min-height: 100vh;
 }
 

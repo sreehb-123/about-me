@@ -2,10 +2,10 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 12px 0;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    background-color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    background-color: #ffffff;
 }
 
 .nav-list {
@@ -22,11 +22,11 @@
 }
 
 .nav-list a {
-    color: white;
+    color: #111111;
     text-decoration: none;
-    font-size: 25px;
-    padding: 5px 10px;
-    transition: color 0.3s ease;
+    font-size: 18px;
+    padding: 6px 12px;
+    transition: color 0.2s ease;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
