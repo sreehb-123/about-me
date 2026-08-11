@@ -10,6 +10,21 @@
       content="Web site created using create-react-app"
     />
     <title>Harsha - Web Developer</title>
+    <script>
+      // Install global error handlers to show runtime errors in the page
+      window.addEventListener && window.addEventListener('error', function(e){
+        try {
+          var root = document.getElementById('root');
+          if (root) root.innerHTML = '<div style="padding:24px;color:#900;background:#fee;border:1px solid #f99"><h2>Runtime Error</h2><pre style="white-space:pre-wrap">'+(e.error && e.error.stack ? e.error.stack : e.message) +'</pre></div>';
+        } catch(err){console.error(err)}
+      });
+      window.addEventListener && window.addEventListener('unhandledrejection', function(e){
+        try{
+          var root = document.getElementById('root');
+          if (root) root.innerHTML = '<div style="padding:24px;color:#900;background:#fee;border:1px solid #f99"><h2>Unhandled Rejection</h2><pre style="white-space:pre-wrap">'+String(e.reason)+'</pre></div>';
+        }catch(err){console.error(err)}
+      });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
